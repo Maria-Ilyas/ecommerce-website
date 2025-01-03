@@ -32,10 +32,10 @@ const App = () => {
         <Navbar handleOrderPopup={handleOrderPopup}/>
        <Routes>
          <Route path="/" element={<Banner handleOrderPopup={handleOrderPopup}/>} />
-         <Route path='/top-rated' element={<TopProducts handleOrderPopup={handleOrderPopup}/>} />
-         <Route path='/men' element={<Products />}/>
-         <Route path='/kids' element={<Products />}/>
-         <Route path='/women' element={<Products/>}/>
+         <Route path='/ecommerce-website/top-rated' element={<TopProducts handleOrderPopup={handleOrderPopup}/>} />
+         <Route path='/ecommerce-website/men' element={<Products />}/>
+         <Route path='/ecommerce-website/kids' element={<Products />}/>
+         <Route path='/ecommerce-website/women' element={<Products/>}/>
        </Routes> 
         
         <Winter_Banner/>
