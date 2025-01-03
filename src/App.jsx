@@ -31,7 +31,7 @@ const App = () => {
      <BrowserRouter>
         <Navbar handleOrderPopup={handleOrderPopup}/>
        <Routes>
-         <Route path="/" element={<Banner handleOrderPopup={handleOrderPopup}/>} />
+         <Route path="/ecommerce-website/" element={<Banner handleOrderPopup={handleOrderPopup}/>} />
          <Route path='/ecommerce-website/top-rated' element={<TopProducts handleOrderPopup={handleOrderPopup}/>} />
          <Route path='/ecommerce-website/men' element={<Products />}/>
          <Route path='/ecommerce-website/kids' element={<Products />}/>
